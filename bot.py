@@ -1,4 +1,10 @@
 import os
+print("=== ДИАГНОСТИКА ===")
+print("Токен в коде:", bool(os.getenv("TELEGRAM_TOKEN")))
+print("Ключ в коде:", bool(os.getenv("GEMINI_API_KEY")))
+print("Все переменные:", [k for k in os.environ if "TEL" in k or "GEM" in k])
+
+import os
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters
 import google.generativeai as genai
