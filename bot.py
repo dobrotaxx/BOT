@@ -28,7 +28,7 @@ if not GEMINI_API_KEY:
 print("✅ Все переменные найдены. Запуск бота...")
 
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.0-pro')
 
 async def handle_message(update: Update, context):
     try:
