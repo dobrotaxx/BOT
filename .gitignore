@@ -1,0 +1,29 @@
+# Файлы IDE и редакторов
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Файлы с ключами и конфигами
+.env
+*.env
+secrets.*
+config.json
+credentials.py
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Кэш и сборки Python
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+
+# Системные файлы
+.DS_Store  (Mac)
+Thumbs.db  (Windows)
