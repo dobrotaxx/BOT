@@ -27,3 +27,6 @@ build/
 # Системные файлы
 .DS_Store  (Mac)
 Thumbs.db  (Windows)
+
+logs/
+!logs/.gitkeep
